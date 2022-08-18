@@ -15,10 +15,11 @@ body {
     width: 1321px;
     height: 646px;
     margin: 50px 140px;
-    background-color: white;
+    background-color: grey;
     border: 1px solid red;
     border-radius: 30px;
     display: flex;
+
 
 }
 
@@ -27,6 +28,20 @@ body {
     height: 424px;
     margin: 161px 246px;
     border: 1px solid yellow;
+}
+
+.top-title {
+    font-size: 70px;
+    color: white;
+    width: 531px;
+    height: 240px;
+}
+
+.top-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    border: 1px solid blue
 }
 
 .top-right-img {
