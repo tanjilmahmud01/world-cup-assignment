@@ -95,8 +95,6 @@
 .match-news {
     width: 90%;
     margin: 20px auto;
-
-
     display: flex;
 
 }
@@ -209,7 +207,6 @@
 }
 
 .comment {
-
     display: flex;
 }
 
@@ -252,7 +249,6 @@ footer hr {
 }
 
 .footer-div {
-
     border: 2px solid black;
 }
 
@@ -271,6 +267,23 @@ footer hr {
     font-weight: 400;
 }
 
+.social {
+    width: 20%;
+    margin: 20px auto;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fa-brands {
+    color: white;
+    font-size: 20px;
+}
+
+
+
+/* upcoming matches styles */
 .country-img {
     width: 100%;
     padding: 30px;
@@ -284,7 +297,8 @@ footer hr {
     display: flex;
     flex-direction: column;
     align-items: center;
-
+    border: 2px solid #E8E8E8;
+    border-radius: 5px;
 }
 
 .country-news-details {
@@ -297,6 +311,8 @@ footer hr {
     margin-top: 20px;
     color: #4D4D4D;
 }
+
+
 
 
 
@@ -487,18 +503,15 @@ footer hr {
         margin-top: 30px;
     }
 
-
+    .social {
+        width: 100%;
+        margin: 20px auto;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
 
 }
-
-
-
-
-
-
-
-
-
 
 
 /* tablet */
